@@ -1,0 +1,43 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary{
+    background:navy;
+}
+
+.secondary{
+    background: #162a57;
+}
+
+header ul li {
+    @apply px-2
+}
+
+
+.mobile-view {
+    @apply fixed top-10 left-0  w-full h-1/2 bg-gray-800 
+}
+
+.mobile-view li {
+    @apply w-full h-full text-center border-b-2
+}
+
+/* .mobile-nav{
+    @apply fixed top-10 left-0 bg-gray-400 w-full h-1/4;
+}
+
+.mobile-nav li{
+    @apply w-full text-center border-b-2 h-full 
+} */
+ .iconhover:hover{
+    color: white;
+ }
+
+ .projects{
+    @apply absolute  bottom-0 left-0 right-0 top-0 bg-black rounded opacity-0 duration-500 cursor-pointer hover:opacity-80 
+ }
+
+ html{
+    scroll-behavior: smooth;
+ }
